@@ -2,7 +2,7 @@ import { Card } from "@/components/Card";
 import { MyHeader } from "@/components/MyHeader";
 import { MyP } from "@/components/MyP";
 import Link from "next/link";
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
 export default function Home() {
   return (
@@ -83,8 +83,8 @@ export default function Home() {
             </div>
             <div className="flex w-fit justify-between">
               <StaffCard headerText="教員">
-                <div className="flex w-full justify-between">
-                  <div>
+                <div className="flex w-full justify-center">
+                  <div className="md:mt-16">
                     <div className="md:text-2xl md:mb-5">教授　曾道智</div>
                     <div className="md:text-2xl md:mb-7 mb-3">
                       (Prof. Dao-Zhi Zeng)
@@ -110,78 +110,164 @@ export default function Home() {
 
             <div className="flex w-full justify-between">
               <StaffCard headerText="学生">
-                <div className="md:flex w-full justify-between">
-                  <div className="pb-5">
+                <div className="md:mt-24 md:flex w-full">
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/PanR.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
+                    潘鋭(D)
                     <div>出身地：中国安徽省</div>
                     <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div className="pb-5">
+                    <div>メール:pan[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/liuyh.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div>
+                    劉宜昊(D1)
+                    <div>出身地：中國新疆自治区</div>
+                    <div>趣味：バスケットボール、水泳</div>
+                    <div>メール:liu[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/congcong.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
+                    王叢聰(特別研究生)
+                    <div>出身地： 中国山東省</div>
+                    <div>趣味：バイオリン、 硬筆の書道</div>
+                    <div>メール:congcong[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
                 </div>
-                <div className="md:flex w-full justify-between pt-5">
-                  <div className="pb-5">
+                <div className="md:flex w-full md:pt-24">
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/hxd.jpeg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={200}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div className="pb-5">
+                    洪旭東(特別研究生)
+                    <div>出身地： 中国山東省</div>
+                    <div>趣味：水泳、旅行</div>
+                    <div>メール:sufehxd[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/xiao.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={150}
+                      height={200}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div>
+                    肖哲銘(M2)
+                    <div>出身地：中國江蘇省</div>
+                    <div>趣味：卓球</div>
+                    <div>メール:xiao[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/leqin.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
+                    李樂勤(M2)
+                    <div>出身地: 中国北京市</div>
+                    <div>趣味: 旅行、ハイキング</div>
+                    <div>メール:leqin[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                </div>
+                <div className="md:flex w-full md:pt-24">
+                  <StudentCard>
+                    <img
+                      src={"/yining.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    陳一寧(M2)
+                    <div>出身地: 中国江蘇省</div>
+                    <div>趣味: 水泳、映画鑑賞</div>
+                    <div>メール:yining[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
+                    <img
+                      src={"/maheshwari.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    Shripriya Maheshwari:(M1)
+                    <div>出身地: hurja, Uttar Pradesh, India</div>
+                    <div>趣味: Writing and performing Poetry,</div>
+                    <div>Reading, Badminton</div>
+                    <div>メール:maheshwari[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
+                    <img
+                      src={"/sookie.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    郭筱琦(M1)
+                    <div>出身地: 中国湖北省</div>
+                    <div>趣味: 料理、ヨガ</div>
+                    <div>メール:sookie[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
                 </div>
               </StaffCard>
             </div>
+            <StaffCard headerText="卒業生">
+              <div className="md:mt-24 md:flex w-full">
+                <StudentCard>
+                  <img
+                    src={"/lxmm.jpg"}
+                    alt="zeng"
+                    className="pb-5"
+                    width={180}
+                    height={240}
+                  />
+                  李馨萌:2021年9月 博士後期課程卒業
+                  <div>進路: 総合地球環境学研究所</div>
+                  <div>出身地: 中国天津市</div>
+                  <div>趣味: 絵画、アニメ</div>
+                  <div>メール:lixinmeng[at]se.is.tohoku.ac.jp</div>
+                </StudentCard>
+                <StudentCard>
+                  <img
+                    src={"/lkf.jpg"}
+                    alt="zeng"
+                    className="pb-5"
+                    width={175}
+                    height={210}
+                  />
+                  林柯夫:2023年3月 博士後期課程卒業
+                  <div>進路: 東海大学政治経済学部経済学科</div>
+                  <div>出身地: 中国浙江省</div>
+                  <div>趣味: 囲碁、麻雀</div>
+                  <div>メール:lin[at]se.is.tohoku.ac.jp</div>
+                </StudentCard>
+              </div>
+            </StaffCard>
           </div>
         </div>
         <div
@@ -194,8 +280,8 @@ export default function Home() {
             </div>
             <div className="flex w-fit justify-between">
               <StaffCard headerText="教員">
-                <div className="flex w-full justify-between">
-                  <div>
+                <div className="flex w-full justify-center">
+                  <div className="md:mt-16">
                     <div className="md:text-2xl md:mb-5">准教授　伊藤亮</div>
                     <div className="md:text-2xl md:mb-7 mb-3">
                       (Associate Prof. Ryo Itoh)
@@ -210,81 +296,98 @@ export default function Home() {
                 </div>
               </StaffCard>
               <div className="md:w-1/3 w-0">
-                <img src={"/itoh.webp"} alt="zeng" />
+                <img
+                  src={"/itoh.webp"}
+                  alt="zeng"
+                  className="mt-24"
+                  width={700}
+                  height={900}
+                />
               </div>
             </div>
 
             <div className="flex w-full justify-between">
               <StaffCard headerText="学生">
-                <div className="md:flex w-full justify-between">
-                  <div className="pb-5">
+                <div className="md:mt-24 md:flex w-full">
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/lzh.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={190}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div className="pb-5">
+                    李宗輝(D)
+                    <div>出身地: 中国河南省</div>
+                    <div>趣味: 車を鑑賞</div>
+                    <div>メール: plizonghui[at]se.is.tohoku.ac.jp </div>
+                  </StudentCard>
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/ding.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div>
+                    丁康哲(D)
+                    <div>出身地：中国陝西省</div>
+                    <div>趣味：運動、絵画</div>
+                    <div>メール: ding[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/tsuboi.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
+                    <div className="flex gap-x-2">
+                      坪井和史(D3)
+                      <Link
+                        target="_blank"
+                        href={"https://researchmap.jp/kazufumi_tsuboi"}
+                      >
+                        <div className="underline text-blue-700">
+                          research map
+                        </div>
+                      </Link>
+                    </div>
+                    <div>[2023.4-] 日本学術振興会 特別研究員 DC2</div>
+                    <div>出身地: 神奈川県</div>
+                    <div>趣味: 陸上競技、星や森を眺めること</div>
+                    <div>メール: tsuboi[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
                 </div>
-                <div className="md:flex w-full justify-between pt-5">
-                  <div className="pb-5">
+                <div className="md:flex w-full md:pt-24">
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/tang.jpeg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div className="pb-5">
+                    唐晨雪(D1)
+                    <div>出身地: 中国湖南省</div>
+                    <div>趣味: 読書、散歩</div>
+                    <div>メール: tang[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
                     <img
-                      src={"/zeng.webp"}
+                      src={"/wang.j.jpg"}
                       alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
+                      className="pb-5"
+                      width={180}
+                      height={240}
                     />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
-                  <div>
-                    <img
-                      src={"/zeng.webp"}
-                      alt="zeng"
-                      className="md:w-1/2 w-0 md:pb-5"
-                    />
-                    潘鋭:(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール: pan[at]se.is.tohoku.ac.jp</div>
-                  </div>
+                    王郡南(M1)
+                    <div>出身地: 中国湖北省</div>
+                    <div>趣味: ピアノ、バレーボール</div>
+                    <div>メール: wang.j[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <div />
                 </div>
               </StaffCard>
             </div>
@@ -294,9 +397,22 @@ export default function Home() {
     </div>
   );
 }
+
+interface StudentCardProps {
+  children: ReactNode;
+}
+
+const StudentCard: FC<StudentCardProps> = ({ children }) => {
+  return (
+    <div className="md:w-1/3 md:mb-0 mb-10 overflow-hidden items-center flex-col flex">
+      {children}
+    </div>
+  );
+};
+
 interface StaffCardProps {
   headerText: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 export const StaffCard: FC<StaffCardProps> = ({
   headerText,
@@ -311,7 +427,7 @@ export const StaffCard: FC<StaffCardProps> = ({
 };
 
 interface LabCardProps {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
 }
 const LabCard: FC<LabCardProps> = ({ children, className }) => {
