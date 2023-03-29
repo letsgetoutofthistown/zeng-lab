@@ -103,7 +103,7 @@ export default function Home() {
                   </div>
                 </div>
               </StaffCard>
-              <div className="md:w-1/3 w-0">
+              <div className="md:w-1/3 w-0 md:mt-20">
                 <img src={"/zeng.webp"} alt="zeng" />
               </div>
             </div>

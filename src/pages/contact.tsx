@@ -28,7 +28,7 @@ export default function Home() {
                 target="_blank"
                 href={"http://www.se.is.tohoku.ac.jp/~zeng/index.html"}
               >
-                教授　曾道智　(Prof. Dao-Zhi Zeng)
+                教授　曾道智(Prof. Dao-Zhi Zeng)
               </Link>
             </div>
             <div>
