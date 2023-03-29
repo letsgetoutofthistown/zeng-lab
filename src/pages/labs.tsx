@@ -154,7 +154,7 @@ export default function Home() {
                 <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
-                      src={"/hxd.jpeg"}
+                      src={"/hxd.JPG"}
                       alt="zeng"
                       className="pb-5"
                       width={200}
