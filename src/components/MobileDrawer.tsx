@@ -15,10 +15,14 @@ export const MobileDrawer: FC = () => {
         <div className="h-8">
           <img src={"/logo.webp"} alt="logo" width={40} height={40} />
         </div>
-        <div className="flex flex-col items-center justify-around h-6">
-          <IconBar />
-          <IconBar />
-          <IconBar />
+        <div className="relative h-6 w-6">
+          <div className="fixed">
+            <div className="h-6 w-6 flex flex-col items-center justify-around">
+              <IconBar />
+              <IconBar />
+              <IconBar />
+            </div>
+          </div>
         </div>
       </div>
       <Drawer
