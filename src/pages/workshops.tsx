@@ -26,7 +26,7 @@ export default function Home() {
             for (let i = 0; i < parts.length; i++) {
               if (isReading) {
                 items[items.length - 1] =
-                  items[items.length - 1].replace('"', "") + parts[i];
+                  items[items.length - 1] + parts[i].replace('"', "");
                 if (parts[i].includes('"')) {
                   isReading = false;
                 } else {
@@ -36,8 +36,7 @@ export default function Home() {
                 items.push(parts[i]);
                 if (parts[i].includes('"')) {
                   isReading = true;
-                  items[items.length - 1] =
-                    items[items.length - 1].replace('"', "") + ",";
+                  items[items.length - 1] = items[items.length - 1] + ",";
                 }
               }
             }
