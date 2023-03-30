@@ -30,10 +30,10 @@ export default function Home() {
                 if (parts[i].includes('"')) {
                   isReading = false;
                 } else {
-                  items[items.length - 1] = items[items.length - 1] + '"';
+                  items[items.length - 1] = items[items.length - 1] + ",";
                 }
               } else {
-                items.push(parts[i]);
+                items.push(parts[i].replace('"', ""));
                 if (parts[i].includes('"')) {
                   isReading = true;
                   items[items.length - 1] = items[items.length - 1] + ",";
