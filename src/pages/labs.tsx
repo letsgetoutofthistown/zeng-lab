@@ -133,7 +133,7 @@ export default function Home() {
                       height={240}
                     />
                     劉宜昊(D1)
-                    <div>出身地：中國新疆自治区</div>
+                    <div>出身地：中国新疆ウイグル自治区</div>
                     <div>趣味：バスケットボール、水泳</div>
                     <div>メール:liu[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
@@ -173,8 +173,8 @@ export default function Home() {
                       width={150}
                       height={200}
                     />
-                    肖哲銘(M2)
-                    <div>出身地：中國江蘇省</div>
+                    肖哲銘(M)
+                    <div>出身地：中国江蘇省</div>
                     <div>趣味：卓球</div>
                     <div>メール:xiao[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
