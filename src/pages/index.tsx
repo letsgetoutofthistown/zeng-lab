@@ -8,7 +8,7 @@ export default function Home() {
       <div className="h-40 md:h-[500px] lg:h-[100vh] overflow-hidden md:w-screen">
         <img src={"/home.jpg"} alt="univ" width={9999} height={9999} />
       </div>
-      <Card className="md:-mt-32 px-0 pr-10 pl-10">
+      <Card className="md:-mt-28 px-0 pr-10 pl-10">
         <MyHeader>
           <div className="JR font-bold">研究紹介</div>
         </MyHeader>
