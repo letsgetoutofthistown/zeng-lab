@@ -74,7 +74,7 @@ export default function Home() {
         {workshops.map((w, i) => {
           console.log(w);
           return (
-            <div key={i} className="w-full my-10 md:pl-10 pr-10">
+            <div key={i} className="w-full my-10 md:pl-10 md:pr-10">
               <div className="md:text-3xl text-xl mb-5 JR font-black">
                 {w.heading}
               </div>
