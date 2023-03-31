@@ -34,31 +34,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <TeacherCard headerText="教育（Academic Background）">
-        <ul className="list-disc flex flex-col gap-y-5">
-          <li>
-            <div>理学学士 (1985): 中国 華中科技大学 数学と統計学院数学系</div>
-            <div className="text-xs">
-              Bachelor (1985): Huazhong University of Science and
-              Technology,China. Applied Mathematics in Department of Mathematics
-            </div>
-          </li>
-          <li>
-            <div>理学修士 (1987): 中国 華中科技大学 数学と統計学院数学系</div>
-            <div className="text-xs">
-              Master (1987): Huazhong University of Science and Technology,
-              China. Applied Mathematics in Department of Mathematics
-            </div>
-          </li>
-          <li>
-            <div>工学博士 (1996) : 京都大学大学院工学研究科数理工学専攻</div>
-            <div className="text-xs">
-              Docter (1996): Kyoto University, Japan. Operations Research in
-              Faculty of Engineering
-            </div>
-          </li>
-        </ul>
-      </TeacherCard>
+
       <TeacherCard headerText="職歴（Employment）">
         <ul className="list-disc flex flex-col gap-y-5">
           <li>

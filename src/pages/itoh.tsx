@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Card className="md:pt-52 pt-2 pl-0 pr-0 w-screen">
-      <div className="flex md:gap-x-16 gap-x-1 md:pb-16 pb-7">
+      <div className="flex md:gap-x-16 gap-x-1 md:pb-20 pb-7">
         <div className="md:w-[320px] w-full px-2">
           <img src={"/itoh.webp"} alt="zeng" width={9999} height={9999} />
         </div>
@@ -35,34 +35,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      <TeacherCard headerText="教育（Academic Background）">
-        <ul className="list-disc flex flex-col gap-y-5">
-          <li>
-            <div>2003. 3　京都大学経済学部卒</div>
-            <div className="text-xs">
-              2003 Kyoto University (BA of Economics)
-            </div>
-          </li>
-          <li>
-            <div>
-              2005. 3　東北大学大学院情報科学研究科 博士前期課程修了
-              修士（情報科学）取得
-            </div>
-            <div className="text-xs">
-              2005 Tohoku University (MA of Information Sciences)
-            </div>
-          </li>
-          <li>
-            <div>
-              2008. 3　東北大学大学院情報科学研究科 博士後期課程修了
-              博士（情報科学）取得
-            </div>
-            <div className="text-xs">
-              2008 Tohoku University (PhD of Information Sciences)
-            </div>
-          </li>
-        </ul>
-      </TeacherCard>
+
       <TeacherCard headerText="職歴（Employment）">
         <ul className="list-disc flex flex-col gap-y-5">
           <li>
