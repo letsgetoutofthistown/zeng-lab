@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <div className="md:pt-36 pt-2 md:w-full w-screen flex flex-col items-center ">
       <div className="h-40 md:h-[500px] lg:h-[100vh] overflow-hidden md:w-screen">
-        <img src={"/workshop.webp"} alt="univ" width={9999} height={9999} />
+        <img src={"/workshops.jpg"} alt="univ" width={9999} height={9999} />
       </div>
       <Card className="md:-mt-72 px-0 pr-10 pl-10">
         <div className="flex flex-col md:pr-5 pr-2 md:pl-5 pl-2 py-5 border-black border-2 md:mb-24 mb-5 items-center md:text-base text-xs">

@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <div className="md:pt-36 pt-2 md:w-full w-screen flex flex-col items-center ">
       <div className="h-40 md:h-[500px] lg:h-[100vh] overflow-hidden md:w-screen">
-        <img src={"/intro.webp"} alt="univ" width={9999} height={9999} />
+        <img src={"/lab.jpg"} alt="univ" />
       </div>
-      <LabCard className="pt-0 md:pb-0 md:pr-0 md:-mt-72 -mt-10">
+      <LabCard className="pt-0 md:pb-0 md:pr-0 md:-mt-60 -mt-10">
         <div className="md:flex h-full">
           <div className="md:w-2/3 md:mr-10 pt-16">
             <MyHeader>
