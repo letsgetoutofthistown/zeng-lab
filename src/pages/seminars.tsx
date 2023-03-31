@@ -41,9 +41,9 @@ export default function Home() {
   return (
     <div className="md:pt-36 pt-2 md:w-full w-screen flex flex-col items-center ">
       <div className="h-40 md:h-[500px] lg:h-[100vh] overflow-hidden w-screen">
-        <img src={"/semi.jpg"} alt="univ" width={9999} height={9999} />
+        <img src={"/semi.png"} alt="univ" width={9999} height={9999} />
       </div>
-      <Card className="md:pt-24 pt-7 md:pb-0 md:pr-0 md:-mt-64 -mt-10 w-full">
+      <Card className="md:pt-24 pt-7 md:pb-0 md:pr-0 md:-mt-56 -mt-10 w-full">
         <div className="md:text-xl  md:pb-5 pb-2">
           令和５年度　前期火曜日（曽研のみ）
         </div>
