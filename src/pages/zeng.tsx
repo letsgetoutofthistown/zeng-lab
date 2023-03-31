@@ -1,6 +1,7 @@
 import { Card } from "@/components/Card";
 import { MyHeader } from "@/components/MyHeader";
 import { FC } from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,6 +24,14 @@ export default function Home() {
               Professor
             </div>
             <div>Mail: zeng[at]se.is.tohoku.ac.jp</div>
+            <div className="mt-5 underline text-blue-700">
+              <Link
+                target="_blank"
+                href={"http://www.se.is.tohoku.ac.jp/~zeng/index.html"}
+              >
+                詳しくはこちらへ
+              </Link>
+            </div>
           </div>
         </div>
       </div>

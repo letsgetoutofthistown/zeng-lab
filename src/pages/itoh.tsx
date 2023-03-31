@@ -1,7 +1,7 @@
 import { Card } from "@/components/Card";
-import { ComingSoon } from "@/components/ComingSoon";
 import { MyHeader } from "@/components/MyHeader";
 import { FC } from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,6 +24,14 @@ export default function Home() {
               Associate Professor
             </div>
             <div>Mail: itoh at se.is.tohoku.ac.jp</div>
+            <div className="md:mt-5 underline text-blue-700">
+              <Link
+                target="_blank"
+                href={"https://sites.google.com/site/ryoitohspage/home"}
+              >
+                詳しくはこちらへ
+              </Link>
+            </div>
           </div>
         </div>
       </div>
