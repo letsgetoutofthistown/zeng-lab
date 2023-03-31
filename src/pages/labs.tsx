@@ -300,9 +300,7 @@ export default function Home() {
                       <div>2008.4　運輸政策研究機構運輸政策研究所　研究員</div>
                       <div>2010.10　名古屋市立大学経済学研究科　講師</div>
                       <div>2014.7　名古屋市立大学経済学研究科　准教授</div>
-                      <div>
-                        2015.4:　東北大学大学院情報科学研究科 准教授
-                      </div>{" "}
+                      <div>2015.4:　東北大学大学院情報科学研究科 准教授</div>
                       <div className="md:mt-5 underline text-blue-700">
                         <Link
                           target="_blank"
