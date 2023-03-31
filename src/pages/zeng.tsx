@@ -6,24 +6,23 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Card className="md:pt-52 pt-2 pl-0 pr-0 w-screen">
-      <div className="flex md:gap-x-16 gap-x-1 pb-16 ">
+      <div className="flex md:gap-x-16 gap-x-1 md:pb-16 pb-7">
         <div className="md:w-[320px] w-full px-2">
           <img src={"/zeng.webp"} alt="zeng" width={9999} height={9999} />
         </div>
-        <div className="flex flex-col md:gap-y-20 gap-y-12 md:pt-7 pt-2">
-          <div className="flex flex-col md:gap-y-7 gap-y-2">
-            <div className="md:text-5xl text-lg md:flex">
-              <div>曽道智(ゼン・ダオズ)</div>
+        <div className="flex flex-col md:gap-y-20 gap-y-7 md:pt-7 pt-2">
+          <div className="flex flex-col md:gap-y-7 gap-y-1">
+            <div className="md:text-4xl text-lg md:flex">
+              <div>教授 曽道智</div>
             </div>
-            <div className="md:text-5xl text-base">Dao-Zhi Zeng</div>
+            <div className="md:text-4xl text-base">(Prof. Dao-Zhi Zeng)</div>
           </div>
-          <div className="flex flex-col gap-y-2 md:text-lg text-xs">
-            <div>東北大学情報科学研究科教授</div>
-            <div>
-              Graduate School of Information Sciences Tohoku University,
-              Professor
-            </div>
-            <div>Mail: zeng[at]se.is.tohoku.ac.jp</div>
+          <ul className="list-disc flex flex-col gap-y-2 md:text-base text-xs">
+            <div>1996.4:香川大学経済学部講師</div>
+            <div>1997.6:香川大学経済学部助教授 </div>
+            <div>2004.4:香川大学大学院地域マネジメント研究科 助教授 </div>
+            <div>2006.3:香川大学大学院地域マネジメント研究科 教授</div>
+            <div>2008.4:東北大学大学院情報科学研究科 教授</div>
             <div className="mt-5 underline text-blue-700">
               <Link
                 target="_blank"
@@ -32,7 +31,7 @@ export default function Home() {
                 詳しくはこちらへ
               </Link>
             </div>
-          </div>
+          </ul>
         </div>
       </div>
       <TeacherCard headerText="教育（Academic Background）">
