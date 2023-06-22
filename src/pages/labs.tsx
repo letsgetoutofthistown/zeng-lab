@@ -35,7 +35,7 @@ export default function Home() {
             <Link href={"#zeng_lab"} className="md:w-1/2 relative group/image">
               <img
                 className="object-cover md:h-full h-0 group-hover/image:opacity-50"
-                src="1.jpeg"
+                src="/1.jpeg"
                 alt="zeng"
                 width={9999}
                 height={9999}
@@ -52,7 +52,7 @@ export default function Home() {
             <Link href={"#itoh_lab"} className="md:w-1/2 relative group/image">
               <img
                 className="object-cover md:h-full h-0 group-hover/image:opacity-50"
-                src="1.jpg"
+                src="/1.jpg"
                 alt="zeng"
                 width={9999}
                 height={9999}
@@ -147,21 +147,7 @@ export default function Home() {
                     <div>趣味：バスケットボール、水泳</div>
                     <div>メール:liu[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-                  <StudentCard>
-                    <img
-                      src={"/congcong.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    王叢聰(特別研究生)
-                    <div>出身地： 中国山東省</div>
-                    <div>趣味：バイオリン、 硬筆の書道</div>
-                    <div>メール:congcong[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                </div>
-                <div className="md:flex w-full md:pt-24">
+
                   <StudentCard>
                     <img
                       src={"/hxd.JPG"}
@@ -175,6 +161,9 @@ export default function Home() {
                     <div>趣味：水泳、旅行</div>
                     <div>メール:sufehxd[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
+                </div>
+
+                <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
                       src={"/xiao.jpg"}
@@ -201,8 +190,7 @@ export default function Home() {
                     <div>趣味: 旅行、ハイキング</div>
                     <div>メール:leqin[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-                </div>
-                <div className="md:flex w-full md:pt-24">
+
                   <StudentCard>
                     <img
                       src={"/yining.jpg"}
@@ -216,6 +204,8 @@ export default function Home() {
                     <div>趣味: 水泳、映画鑑賞</div>
                     <div>メール:yining[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
+                </div>
+                <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
                       src={"/maheshwari.jpg"}
@@ -233,7 +223,7 @@ export default function Home() {
                   <StudentCard>
                     <img
                       src={"/sookie.jpg"}
-                      alt="zeng"
+                      alt="郭筱琦"
                       className="pb-5"
                       width={180}
                       height={240}
@@ -242,6 +232,19 @@ export default function Home() {
                     <div>出身地: 中国湖北省</div>
                     <div>趣味: 料理、ヨガ</div>
                     <div>メール:sookie[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>{" "}
+                  <StudentCard>
+                    <img
+                      src={"/dong.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    董振武(R)
+                    <div>出身地: 中国湖北省</div>
+                    <div>趣味: 旅行、音楽</div>
+                    <div>メール:dongzhenwu[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
                 </div>
               </StaffCard>
