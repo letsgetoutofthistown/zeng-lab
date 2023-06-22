@@ -23,7 +23,7 @@ export default function Home() {
               <div className="JR font-bold">都市形成と集積の経済メカニズム</div>
             </MyHeader>
             <MyP className="mb-20 Japanese">
-              <div>
+              <div className="pb-5">
                 交通、通信ネットワークによって結ばれた個々の都市は、人、財、サービス、知識の移動を通じて、全体として有機的な「都市システム」を形成している。また、グローバル化、ボーダーレス化の急速な進展のもとで、都市、地域、国際経済は複雑に絡み合い、現代の都市システムは国を越えたグローバルな社会経済システムを形成しつつある。{" "}
               </div>
               <div>
