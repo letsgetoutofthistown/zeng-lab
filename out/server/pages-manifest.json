@@ -1,0 +1,15 @@
+{
+  "/_app/_app": "pages/_app/_app.js",
+  "/_document/_document": "pages/_document/_document.js",
+  "/contact/contact": "pages/contact/contact.html",
+  "/index": "pages/index/index/index.html",
+  "/itoh/itoh": "pages/itoh/itoh.html",
+  "/labs/labs": "pages/labs/labs.html",
+  "/seminars/seminars": "pages/seminars/seminars.html",
+  "/zeng/zeng": "pages/zeng/zeng.html",
+  "/workshops/workshops": "pages/workshops/workshops.html",
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
