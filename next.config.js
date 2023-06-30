@@ -11,7 +11,6 @@ const nextConfig = {
         '/_app': {page: '/_app/_app'},
         '/_document': {page: '/_document/_document'},
         '/contact': {page: '/contact/contact'},
-        '/index': {page: '/index/index'},
         '/itoh': {page: '/itoh/itoh'},
         '/labs': {page: '/labs/labs'},
         '/seminars': {page: '/seminars/seminars'},
