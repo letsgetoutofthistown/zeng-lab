@@ -7,14 +7,14 @@ const nextConfig = {
   exportPathMap: function () {
     return { 
         '/': {page: '/'},
-        '/zeng': {page: '/zeng/zeng'},
-        '/_app': {page: '/_app/_app'},
-        '/_document': {page: '/_document/_document'},
-        '/contact': {page: '/contact/contact'},
-        '/itoh': {page: '/itoh/itoh'},
-        '/labs': {page: '/labs/labs'},
-        '/seminars': {page: '/seminars/seminars'},
-        '/workshops': {page: '/workshops/workshops'},
+        '/zeng': {page: '/zeng'},
+        '/_app': {page: '/_app'},
+        '/_document': {page: '/_document'},
+        '/contact': {page: '/contact'},
+        '/itoh': {page: '/itoh'},
+        '/labs': {page: '/labs'},
+        '/seminars': {page: '/seminars'},
+        '/workshops': {page: '/workshops'},
     };
 },
 }
