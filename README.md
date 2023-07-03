@@ -1,7 +1,26 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Installing Node.js
 
+For Mac and Linux:
+```bash
+# install nvs
+export NVS_HOME="$HOME/.nvs"
+git clone https://github.com/jasongin/nvs "$NVS_HOME"
+. "$NVS_HOME/nvs.sh" install
+
+# install Node.js ver>16.18.0
+nvs add 16.18.0
+nvs use 16.18.0
+```
+
+## Installing configuration
+```bash
+# cd to proj root
+npm install
+```
+
+## Development
 First, run the development server:
 
 ```bash
