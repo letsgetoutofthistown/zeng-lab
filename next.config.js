@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: "out",
+  distDir: "html",
   reactStrictMode: true,
   trailingSlash: true,
   output: "export",
