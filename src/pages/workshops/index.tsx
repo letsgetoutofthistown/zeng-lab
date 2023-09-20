@@ -60,10 +60,7 @@ export default function Home() {
       <Card className="md:-mt-72 px-0 pr-10 pl-10">
         <div className="flex flex-col md:pr-5 pr-2 md:pl-5 pl-2 py-5 border-black border-2 md:mb-24 mb-5 items-center md:text-base text-xs">
           <div className="JR">
-            ⚠️コロナ感染症拡大防止期間中に、地域科学WS発表はオンラインで行います。
-          </div>
-          <div className="JR w-fit">
-            応用地域学会会員もしくはWS運営メンバーの紹介で参加可能です。
+            地域科学WSは、応用地域学会会員もしくはWS運営メンバーの紹介で参加可能です。
           </div>
           <div className="JR">
             参加希望の方は，WS運営メンバー曽、河野、伊藤、藤原にご連絡ください。
