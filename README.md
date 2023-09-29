@@ -1,59 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## How to upload the content
 
-## Installing Node.js
-
-For Mac and Linux:
-```bash
-# install nvs
-export NVS_HOME="$HOME/.nvs"
-git clone https://github.com/jasongin/nvs "$NVS_HOME"
-. "$NVS_HOME/nvs.sh" install
-
-# install Node.js ver>16.18.0
-nvs add 16.18.0
-nvs use 16.18.0
-```
-
-## Installing configuration
-```bash
-# cd to proj root
-npm install
-```
-
-## Development
-First, run the development server:
+1. Build the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Connect to Tohoku Univ. VPN
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. Input the following command on Terminal
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+sftp -P 22 se_is_admin@www.se.is.tohoku.ac.jp
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+4. Send the password the manager told you
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5. Upload the outputed **html** folder
 
-## Learn More
+```bash
+sudo put -r html
+```
 
-To learn more about Next.js, take a look at the following resources:
+6. Close the connection
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# zeng-lab
-# zeng-lab
+```bash
+quit
+```
