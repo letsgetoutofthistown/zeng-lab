@@ -66,7 +66,7 @@ sftp -P 22 se_is_admin@www.se.is.tohoku.ac.jp
 5. Upload the outputed **html** folder
 
 ```bash
-sudo put -r html
+put -r html
 ```
 
 6. Close the connection
