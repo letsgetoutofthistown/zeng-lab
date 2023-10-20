@@ -147,23 +147,6 @@ export default function Home() {
                     <div>趣味：バスケットボール、水泳</div>
                     <div>メール:liu[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-
-                  <StudentCard>
-                    <img
-                      src={"/hxd.JPG"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={200}
-                      height={240}
-                    />
-                    洪旭東(特別研究生)
-                    <div>出身地： 中国山東省</div>
-                    <div>趣味：水泳、旅行</div>
-                    <div>メール:sufehxd[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                </div>
-
-                <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
                       src={"/xiao.jpg"}
@@ -177,34 +160,8 @@ export default function Home() {
                     <div>趣味：卓球</div>
                     <div>メール:xiao[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-                  <StudentCard>
-                    <img
-                      src={"/leqin.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    李樂勤(M2)
-                    <div>出身地: 中国北京市</div>
-                    <div>趣味: 旅行、ハイキング</div>
-                    <div>メール:leqin[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-
-                  <StudentCard>
-                    <img
-                      src={"/yining.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    陳一寧(M2)
-                    <div>出身地: 中国江蘇省</div>
-                    <div>趣味: 水泳、映画鑑賞</div>
-                    <div>メール:yining[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
                 </div>
+
                 <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
@@ -214,7 +171,7 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    Shripriya Maheshwari:(M1)
+                    Shripriya Maheshwari:(M2)
                     <div>出身地: hurja, Uttar Pradesh, India</div>
                     <div>趣味: Writing and performing Poetry,</div>
                     <div>Reading, Badminton</div>
@@ -241,7 +198,7 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    董振武(R)
+                    董振武(M1)
                     <div>出身地: 中国湖北省</div>
                     <div>趣味: 旅行、音楽</div>
                     <div>メール:dongzhenwu[at]se.is.tohoku.ac.jp</div>
@@ -345,19 +302,7 @@ export default function Home() {
                     <div>趣味: 車を鑑賞</div>
                     <div>メール: plizonghui[at]se.is.tohoku.ac.jp </div>
                   </StudentCard>
-                  <StudentCard>
-                    <img
-                      src={"/ding.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    丁康哲(D)
-                    <div>出身地：中国陝西省</div>
-                    <div>趣味：運動、絵画</div>
-                    <div>メール: ding[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
+
                   <StudentCard>
                     <img
                       src={"/tsuboi.jpg"}
@@ -382,8 +327,6 @@ export default function Home() {
                     <div>趣味: 陸上競技、星や森を眺めること</div>
                     <div>メール: tsuboi[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-                </div>
-                <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
                       src={"/tang.jpeg"}
@@ -397,6 +340,8 @@ export default function Home() {
                     <div>趣味: 読書、散歩</div>
                     <div>メール: tang[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
+                </div>
+                <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
                       src={"/wang.j.jpg"}
