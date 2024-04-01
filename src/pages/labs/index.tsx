@@ -123,19 +123,6 @@ export default function Home() {
                 <div className="md:mt-24 md:flex w-full">
                   <StudentCard>
                     <img
-                      src={"/PanR.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    潘鋭(D)
-                    <div>出身地：中国安徽省</div>
-                    <div>趣味：将棋、音楽鑑賞</div>
-                    <div>メール:pan[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                  <StudentCard>
-                    <img
                       src={"/liuyh.jpg"}
                       alt="zeng"
                       className="pb-5"
@@ -146,36 +133,6 @@ export default function Home() {
                     <div>出身地：中国新疆ウイグル自治区</div>
                     <div>趣味：バスケットボール、水泳</div>
                     <div>メール:liu[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                  <StudentCard>
-                    <img
-                      src={"/xiao.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={150}
-                      height={200}
-                    />
-                    肖哲銘(M)
-                    <div>出身地：中国江蘇省</div>
-                    <div>趣味：卓球</div>
-                    <div>メール:xiao[at]se.is.tohoku.ac.jp</div>
-                  </StudentCard>
-                </div>
-
-                <div className="md:flex w-full md:pt-24">
-                  <StudentCard>
-                    <img
-                      src={"/maheshwari.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
-                    Shripriya Maheshwari:(M2)
-                    <div>出身地: hurja, Uttar Pradesh, India</div>
-                    <div>趣味: Writing and performing Poetry,</div>
-                    <div>Reading, Badminton</div>
-                    <div>メール:maheshwari[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
                   <StudentCard>
                     <img
@@ -236,6 +193,20 @@ export default function Home() {
                   <div>趣味: 囲碁、麻雀</div>
                   <div>メール:lin[at]se.is.tohoku.ac.jp</div>
                 </StudentCard>
+                <StudentCard>
+                  <img
+                    src={"/PanR.jpg"}
+                    alt="zeng"
+                    className="pb-5"
+                    width={130}
+                    height={210}
+                  />
+                  潘鋭:2023年9月 博士後期課程卒業
+                  <div>進路: 弘前大学人文社会科学部put -r html</div>
+                  <div>出身地: 中国安徽省</div>
+                  <div>趣味: 将棋、音楽鑑賞</div>
+                  <div>メール:pan[at]se.is.tohoku.ac.jp</div>
+                </StudentCard>
               </div>
             </StaffCard>
           </div>
@@ -248,6 +219,7 @@ export default function Home() {
             <div className="J2 md:text-6xl text-3xl font-bold md:mb-36 mb-5 text-indigo-900 ">
               伊藤研究室
             </div>
+            sftp -P 22 se_is_admin@www.se.is.tohoku.ac.jp
             <div className="flex w-fit justify-between">
               <StaffCard headerText="教員">
                 <div className="flex w-full justify-center">
@@ -285,7 +257,6 @@ export default function Home() {
                 />
               </div>
             </div>
-
             <div className="flex w-full justify-between">
               <StaffCard headerText="学生">
                 <div className="md:mt-24 md:flex w-full">
