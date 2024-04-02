@@ -129,7 +129,7 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    劉宜昊(D1)
+                    劉宜昊(D2)
                     <div>出身地：中国新疆ウイグル自治区</div>
                     <div>趣味：バスケットボール、水泳</div>
                     <div>メール:liu[at]se.is.tohoku.ac.jp</div>
@@ -142,7 +142,7 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    郭筱琦(M1)
+                    郭筱琦(M2)
                     <div>出身地: 中国湖北省</div>
                     <div>趣味: 料理、ヨガ</div>
                     <div>メール:sookie[at]se.is.tohoku.ac.jp</div>
@@ -262,20 +262,6 @@ export default function Home() {
                 <div className="md:mt-24 md:flex w-full">
                   <StudentCard>
                     <img
-                      src={"/lzh.jpg"}
-                      alt="zeng"
-                      className="pb-5"
-                      width={190}
-                      height={240}
-                    />
-                    李宗輝(D)
-                    <div>出身地: 中国河南省</div>
-                    <div>趣味: 車を鑑賞</div>
-                    <div>メール: plizonghui[at]se.is.tohoku.ac.jp </div>
-                  </StudentCard>
-
-                  <StudentCard>
-                    <img
                       src={"/tsuboi.jpg"}
                       alt="zeng"
                       className="pb-5"
@@ -306,13 +292,11 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    唐晨雪(D1)
+                    唐晨雪(D2)
                     <div>出身地: 中国湖南省</div>
                     <div>趣味: 読書、散歩</div>
                     <div>メール: tang[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-                </div>
-                <div className="md:flex w-full md:pt-24">
                   <StudentCard>
                     <img
                       src={"/wang.j.jpg"}
@@ -321,12 +305,11 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    王郡南(M1)
+                    王郡南(M2)
                     <div>出身地: 中国湖北省</div>
                     <div>趣味: ピアノ、バレーボール</div>
                     <div>メール: wang.j[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
-                  <div />
                 </div>
               </StaffCard>
             </div>
