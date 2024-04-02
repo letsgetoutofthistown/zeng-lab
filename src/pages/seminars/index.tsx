@@ -37,7 +37,7 @@ export default function Home() {
       </div>
       <Card className="md:pt-24 pt-7 md:pb-0 md:pr-0 md:-mt-56 -mt-10 w-full">
         <div className="md:text-xl  md:pb-5 pb-2">
-          令和５年度　前期火曜日（曽研のみ）
+          令和6年度　前期火曜日（曽研のみ）
         </div>
         <div className="md:w-3/5 w-full border-2 border-black">
           <div className="flex w-full justify-between">
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
 
         <div className="md:text-xl md:pt-24 pt-10 md:pb-5 pb-2">
-          令和５年度　後期木曜日
+          令和6年度　前期木曜日
         </div>
         <div className="md:w-3/5 w-full border-2 border-black">
           <div className="flex w-full justify-between">
