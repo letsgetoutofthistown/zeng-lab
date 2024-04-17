@@ -14,7 +14,7 @@ interface Workshop {
 export default function Home() {
   const [workshops, setWorkshops] = useState<Workshop[]>([]);
   useEffect(() => {
-    fetch("/workshops.csv")
+    fetch("/4.17.csv")
       .then((res) => res.text())
       .then((resTxt) => resTxt.split("\n"))
       .then((rows) =>
