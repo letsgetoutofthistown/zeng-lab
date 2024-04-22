@@ -136,7 +136,7 @@ export default function Home() {
                   </StudentCard>
                   <StudentCard>
                     <img
-                      src={"/sookie.jpg"}
+                      src={"/sookiek.jpg"}
                       alt="郭筱琦"
                       className="pb-5"
                       width={180}
@@ -309,6 +309,21 @@ export default function Home() {
                     <div>出身地: 中国湖北省</div>
                     <div>趣味: ピアノ、バレーボール</div>
                     <div>メール: wang.j[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                </div>
+                <div className=" md:mt-24 md:flex w-full">
+                  <StudentCard>
+                    <img
+                      src={"/fan.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    <div className="flex gap-x-2">范小叉(M1)</div>
+                    <div>出身地: 中国四川省</div>
+                    <div>趣味: 電車、アニメ、旅行</div>
+                    <div>メール: fan.xiaocha.t2[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
                 </div>
               </StaffCard>
