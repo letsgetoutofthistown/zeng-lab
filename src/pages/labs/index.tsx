@@ -135,13 +135,17 @@ export default function Home() {
                     <div>メール:liu[at]se.is.tohoku.ac.jp</div>
                   </StudentCard>
                   <StudentCard>
-                    <img
-                      src={"/sookiek.jpg"}
-                      alt="郭筱琦"
-                      className="pb-5"
-                      width={180}
-                      height={240}
-                    />
+                    <div>
+                      <meta name="robots" content="noarchive" />
+                      <img
+                        src={"/GXQ.jpg"}
+                        alt="郭筱琦"
+                        className="pb-5"
+                        width={180}
+                        height={240}
+                        loading="lazy"
+                      />
+                    </div>
                     郭筱琦(M2)
                     <div>出身地: 中国湖北省</div>
                     <div>趣味: 料理、ヨガ</div>
