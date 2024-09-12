@@ -117,7 +117,25 @@ export default function Home() {
                 <img src={"/zeng.webp"} alt="zeng" />
               </div>
             </div>
-
+            <div className="flex w-full justify-between">
+              <StaffCard headerText="客員研究員">
+                <div className="md:mt-24 md:flex w-full">
+                  <StudentCard>
+                    <img
+                      src={"/mht.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    毛海涛
+                    <div>出身地：中国山东省</div>
+                    <div>趣味：バドミントン</div>
+                    <div>メール:qrmaohaitao[at]163.com</div>
+                  </StudentCard>
+                </div>
+              </StaffCard>
+            </div>
             <div className="flex w-full justify-between">
               <StaffCard headerText="学生">
                 <div className="md:mt-24 md:flex w-full">
