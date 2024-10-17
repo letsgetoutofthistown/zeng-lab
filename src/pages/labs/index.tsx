@@ -177,10 +177,39 @@ export default function Home() {
                       width={180}
                       height={240}
                     />
-                    董振武(M1)
+                    董振武(M2)
                     <div>出身地: 中国湖北省</div>
                     <div>趣味: 旅行、音楽</div>
                     <div>メール:dongzhenwu[at]se.is.tohoku.ac.jp</div>
+                  </StudentCard>
+                </div>
+
+                <div className=" md:mt-24 md:flex w-full">
+                  <StudentCard>
+                    <img
+                      src={"/lyf.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    <div className="flex gap-x-2">劉依凡(特別研究学生)</div>
+                    <div>出身地: 中国江苏省</div>
+                    <div>趣味: 音楽</div>
+                    <div>メール: liu.yifan.s7[at]dc.tohoku.ac.jp</div>
+                  </StudentCard>
+                  <StudentCard>
+                    <img
+                      src={"/sql.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={190}
+                      height={240}
+                    />
+                    <div className="flex gap-x-2">蘇秦龍(研究生)</div>
+                    <div>出身地: 中国吉林省</div>
+                    <div>趣味: 旅行、歴史</div>
+                    <div>メール: su.qinlong.p4[at]dc.tohoku.ac.jp</div>
                   </StudentCard>
                 </div>
               </StaffCard>
