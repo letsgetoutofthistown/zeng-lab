@@ -133,6 +133,19 @@ export default function Home() {
                     <div>趣味：バドミントン</div>
                     <div>メール:qrmaohaitao[at]163.com</div>
                   </StudentCard>
+                  <StudentCard>
+                    <img
+                      src={"/yjc.jpg"}
+                      alt="zeng"
+                      className="pb-5"
+                      width={180}
+                      height={240}
+                    />
+                    余江川
+                    <div>出身地：中国重慶市</div>
+                    <div>趣味：登山、読書史</div>
+                    <div>yuchuanjiang[at]scu.edu.cn</div>
+                  </StudentCard>
                 </div>
               </StaffCard>
             </div>
