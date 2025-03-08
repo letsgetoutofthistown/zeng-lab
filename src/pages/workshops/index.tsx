@@ -46,7 +46,7 @@ export default function Home() {
               place: items[2],
               reporter: items[3],
               title: items[4],
-              abstract: items[5],
+              abstract: items[5].trim(),
             };
           })
         )
@@ -70,7 +70,7 @@ export default function Home() {
         {workshops.map((w, i) => {
           console.log(w);
           return (
-            <div key={i} className="w-full my-10 md:pl-10 md:pr-10">
+            <div key={i} className="w-full my-2 md:pl-10 md:pr-10">
               <div className="md:text-3xl text-xl mb-5 JR font-black">
                 {w.heading}
               </div>
@@ -90,10 +90,12 @@ export default function Home() {
                 <div className=" font-bold "> REPORTER:　</div>
                 <div className="JR">{w.reporter}</div>
               </div>
-              <div className="mb-1 md:flex">
-                <div className="font-bold inline"> ABSTRACT:　</div>
-                <div className="JR inline md:block">{w.abstract}</div>
-              </div>
+              {!!w.abstract && (
+                <div className="mb-5 md:flex">
+                  <div className="font-bold inline"> ABSTRACT:　</div>
+                  <div className="JR inline md:block">{w.abstract}</div>
+                </div>
+              )}
             </div>
           );
         })}
